@@ -21,7 +21,8 @@ The audio is based off the audio waves in vue-audio-visual AudioWaveForm, with t
 To use just add your own source URL to a component and import as a component audioblocks.vue file
 
 import audioblocks from './components/audioblock'
+Vue.use(Audioblocks)
 
-<audioblock :audioSrc="YourOwnAudioUrl" @sendback='yourAudioFunction' />
+<audioblocks :audioSrc="YourOwnAudioUrl" @sendback='yourAudioFunction' />
 
 Customize YourOwnAudioUrl and yourAudioFunction in the Vue js file.
