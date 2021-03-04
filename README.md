@@ -18,4 +18,10 @@ npm install axios
 
 The audio is based off the audio waves in vue-audio-visual AudioWaveForm, with thanks to https://github.com/staskobzar/vue-audio-visual
 
-To use just add your own source URL to a component.
+To use just add your own source URL to a component and import as a component audioblocks.vue file
+
+import audioblocks from './components/audioblock'
+
+<audioblock :audioSrc="YourOwnAudioUrl" @sendback='yourAudioFunction' />
+
+Customize YourOwnAudioUrl and yourAudioFunction in the Vue js file.
