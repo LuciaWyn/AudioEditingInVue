@@ -11,3 +11,5 @@ axios
 npm install vue-resizable --save
 
 npm install axios
+
+![](https://github.com/LuciaWyn/AudioEditingInVue/blob/main/Screenshot%2003-04-2021%2021.02.20.png?raw=true)
